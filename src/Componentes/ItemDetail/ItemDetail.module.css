@@ -1,0 +1,27 @@
+.container{
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.img{
+  width: 100%;
+}
+.titulo{
+  color: rgb(131, 33, 33);
+  font-size: 2rem;
+}
+
+.descripcion{
+  font-size: 1.5rem;
+}
+.categoria{
+  font-size: .8rem;
+  color: #424242;
+  margin-top: 1rem;
+}
+.precio{
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}

@@ -1,13 +1,14 @@
+import { Item } from "../Item/Item";
 import styles from "../ItemList/ItemList.module.css";
 
 export const ItemList = ( {productos} ) => {
   
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Productos</h2>
       
       <div className={styles.productos}>
-        {productos.map((prod)=> <h2 key={prod.id}>{productos.titulo}</h2>)}
+        {productos.map((prod)=> <Item producto={prod} key={prod.id} />)}
       </div>
     </div>
   )

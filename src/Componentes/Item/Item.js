@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../Item/Item.module.css";
+import {Link} from "react-router-dom"
 
 export const Item = ({producto}) => {
   return (
@@ -9,7 +10,7 @@ export const Item = ({producto}) => {
         <h4>{producto.titulo}</h4>
         <p>Precio: $ {producto.precio}</p>
         <p>Categoria: {producto.categoria}</p>
-        <a className={styles.verMas} href={`/item/${producto.id}`}>Ver mas</a>
+        <Link className={styles.verMas} to={`/item/${producto.id}`}>Ver mas</Link>
       </div>
 
     </div>

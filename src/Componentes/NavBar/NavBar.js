@@ -7,10 +7,11 @@ export const NavBar = () => {
       <Link to="/" className={styles.logo}><h1>Tinta Roja</h1></Link>
       <ul className={styles.menu}>
         <li><Link className={styles.menuLink} to="/">Inicio</Link></li>
-        <li><Link className={styles.menuLink} to="/">Productos</Link></li>
+        <li><Link className={styles.menuLink} to="/productos">Productos</Link></li>
         <li><Link className={styles.menuLink} to="/productos/Tinto">Tinto</Link></li>
         <li><Link className={styles.menuLink} to="/productos/Blanco">Blanco</Link></li>
         <li><Link className={styles.menuLink} to="/productos/Rosado">Rosado</Link></li>
+        <li><Link className={styles.menuLink} to="/contacto">Contacto</Link></li>
       </ul>
     </nav>
   )

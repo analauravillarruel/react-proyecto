@@ -6,7 +6,7 @@ export const productos = [
     precio: 4000,
     descripcion: "Vino Malbec, fuerte",
     categoria: "Tinto",
-    stock: 3
+    stock:20
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const productos = [
     precio: 8000,
     descripcion: "Vino blanco, suave",
     categoria: "Blanco",
-    stock: 5
+    stock:20
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const productos = [
     precio: 9000,
     descripcion: "Vino rosado, moderado",
     categoria: "Rosado",
-    stock: 7
+    stock:20
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const productos = [
     precio: 4000,
     descripcion: "Vino tinto, moderado",
     categoria: "Tinto",
-    stock: 10
+    stock: 20
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const productos = [
     precio: 2000,
     descripcion: "Vino blanco, moderado",
     categoria: "Blanco",
-    stock: 25
+    stock: 20
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const productos = [
     precio: 4000,
     descripcion: "Vino Rosado, suave",
     categoria: "Rosado",
-    stock: 7
+    stock:20
   },
 ]

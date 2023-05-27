@@ -1,0 +1,10 @@
+.menuLink{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+  color: rgb(37, 37, 37);
+}

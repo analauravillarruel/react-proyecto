@@ -1,10 +1,9 @@
-.menuLink{
+.carrito{
   text-decoration: none;
-  color: black;
+  color: rgb(14, 13, 13);
   font-size: 1.2rem;
 }
 
-.menuLink:hover {
-  text-decoration: underline;
+.carrito:hover {
   color: rgb(37, 37, 37);
 }

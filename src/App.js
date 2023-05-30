@@ -8,6 +8,7 @@ import { Contacto } from './Componentes/Contacto/Contacto';
 
 import { CartProvider } from './Context/CartContext';
 import { Carrito } from './Componentes/Carrito/Carrito';
+import { Checkout } from './Componentes/Checkout/Checkout';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/productos" element={<ItemListContainer />} />
             <Route path="/productos/:categoria" element={<ItemListContainer />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="/carrito" element={<Carrito />} />
           </Routes>
 

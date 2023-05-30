@@ -8,3 +8,26 @@
   color: rgb(131, 33, 33);
   font-size: 2rem;
 }
+.button{
+  width: auto;
+  height: auto;
+  list-style-type: none;
+  background-color: rgba(136, 33, 184, 0.952);
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  border: 2px solid rgba(136, 33, 184, 0.952);
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+}

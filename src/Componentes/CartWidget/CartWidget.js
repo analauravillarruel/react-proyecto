@@ -8,8 +8,8 @@ export const CartWidget = () => {
 
   return (
     <div>
-      <Link className={styles.menuLink} to="/carrito">
-        Carrito
+      <Link className={styles.carrito} to="/carrito">
+        <i class='bx bx-cart'></i>
         <span> {cantidadEnCarrito()} </span>
       </Link>
 
